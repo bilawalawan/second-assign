@@ -1,0 +1,329 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    border-bottom: 1px solid #000033;
+}
+
+.left-navbar {
+    font-size: xx-large;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.right-navbar ul {
+    display: inline-flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.right-navbar ul li {
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.active,
+.right-navbar ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hero-section {
+    font-size: large;
+    margin-top: 30px;
+}
+
+.hero-section h1 {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+}
+
+.hero-section p {
+    padding-top: 20px;
+    word-spacing: 4px;
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+}
+
+.container {
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-top: 30px;
+}
+
+.line-1 {
+    width: 640px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.my-profile {
+    display: flex;
+}
+
+.my-logo img {
+    border-radius: 50%;
+}
+
+.my-name {
+    padding: 10px;
+    /* font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px; */
+}
+
+.extra-info {
+    font-family: 'New York Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    margin-top: 50px;
+}
+
+.second-image {
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-top: 30px;
+
+}
+
+.second-image p {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+}
+
+.para-3{
+    font-family: 'New York Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    margin-top: 50px;
+}
+.list-1 ul {
+    font-family: 'New York Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    padding-left: 30px;
+    /* margin-top: 50px; */
+}
+.my-social-links{
+    /* background-color: blue; */
+    display: flex
+}
+button{
+    background-size: 100px;
+    width: 350px;
+    display: flex;
+    padding-top: 15px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-bottom: 10px; ;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+    
+}
+button p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.tags-part{
+    display: flex;
+    font-size: 23px;
+    padding-top: 30px;
+}
+.line-2{
+    width: 640px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.line-3{
+    width: 100%;
+    height: 0;
+    border: 1px solid #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icon-line{
+ 
+    z-index: 1;
+}
+.icon-1 img{
+    width: 90px;
+    position: relative;
+    top: -50px;
+    z-index: 2;
+    left: 50%;
+}
+
+.header-3{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 30px;
+    
+}
+.pic-section1{
+    display: flex;
+    justify-content: center;
+    
+}
+.pic-10{
+    align-items: center;
+    width: 304px;
+    height: 176px;
+    text-align: center;
+    margin: 20px;
+}
+.pic-9{
+    align-items: center;
+    width: 304px;
+    height: 176px;
+    text-align: center;
+    margin: 20px;
+}
+.pic-8{
+    align-items: center;
+    width: 304px;
+    height: 176px;
+    text-align: center;
+    margin: 20px;
+}
+.pic-section2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pic-7{
+    align-items: center;
+    width: 304px;
+    height: 176px;
+    text-align: center;
+    margin: 20px;
+}
+.pic-6{
+    align-items: center;
+    width: 304px;
+    height: 176px;
+    text-align: center;
+    margin: 20px;
+}
+.pic-5{
+    align-items: center;
+    width: 304px;
+    height: 176px;
+    text-align: center;
+    margin: 20px;
+}
+.line-4{
+    width: 40%;
+    height: 2px;
+    background-color: black;
+    margin-top: 100px ;
+    margin-left: 400px;;
+    border: 1px dashed #000000;
+}
+.box{
+    width: 640px;
+    height: 213px;
+    border: 1px  solid #000000;
+    border-top: 7px solid;
+    margin-left: 490px;
+    margin-right: 350px;
+    margin-top: 100px;
+    padding: 30px;
+    
+}
+/* .para-4{
+    margin: 10px;
+} */
+.box input{
+    margin-top: 40px;
+    size: 100px;
+    width: 350px;
+    height: 50px;
+    font-size: 19px;
+}
+.box button{
+    margin-left: 460px;
+    position: relative;
+    top: -49px;
+    margin-bottom: 100px;
+    background-color: #000000;
+    color: white;
+    width: 130px;
+    height: 48px;
+    font-size: large;
+}
+.my-form{
+    text-align: center;
+}
+
+
+
+.my-form{
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+}
+.first-line{
+    color: white;
+    word-spacing: 10px;
+}
+.second-para{
+    margin: 100px 100px;
+    padding: 40px 60px;
+    text-align: center;
+    color: white;
+}
+h3{
+    padding-bottom: 40px;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.extra-links {
+   color: white;
+    word-spacing: 30px;
+    padding-top: 30px;
+}
+.copywrite{
+    padding-top: 30px;
+}
